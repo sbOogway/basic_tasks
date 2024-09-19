@@ -1,5 +1,5 @@
 - name: Hello World Playbook
-  hosts: myhosts
+  hosts: webservers
   tasks:
    - name: Ping my hosts
      ansible.builtin.ping:
