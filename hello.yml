@@ -1,4 +1,4 @@
-- name: My first play
+- name: Hello World Playbook
   hosts: myhosts
   tasks:
    - name: Ping my hosts
