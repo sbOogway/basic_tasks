@@ -1,0 +1,6 @@
+---
+- name: Install Docker and Portainer
+  hosts: all
+  tasks:
+    - name: Install Docker and Portainer
+      command: bash <(curl -s https://gist.githubusercontent.com/sbOogway/e8bc5800bde2245bd3da3641d795b201/raw/6fc300e495fba6b2cb6a739d9b5339d5fe04870d/setup.sh)
