@@ -1,0 +1,11 @@
+---
+- name: Echo a message on target hosts
+  hosts: all
+  tasks:
+    - name: Echo a message
+      command: echo "Hello, this is a message from Ansible!"
+      register: echo_output
+
+    - name: Display the echo output
+      debug:
+        var: echo_output.stdout
